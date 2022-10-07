@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "vercel-build": "yum install libuuid-devel libmount-devel && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/ && next build"
+    "vercel-build": "yum install libuuid-devel libmount-devel && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/ && next build",
+    "start": "node index.js"
   },
   "dependencies": {
     "canvas": "^2.9.3",
